@@ -27,19 +27,7 @@ body h4{
   text-align: center;
 
 }
-@keyframes rotate {
-          0% {
-              transform: rotate(0deg);
-          }
-          100% {
-              transform: rotate(360deg);
-          }
-      }
 
-      
-      #article {
-          animation: rotate 5s linear infinite; 
-      }
 .logo img{
   width:100px;
   height:auto;
