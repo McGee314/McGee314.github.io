@@ -28,32 +28,25 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main>
-            <!-- Your other content -->
+         <!-- Add a new section for displaying scraped data -->
 
-            <!-- Tabel untuk data JSON -->
-            <table>
-                <thead>
-                    <tr>
-                        <th>Kategori</th>
-                        <th>Judul</th>
-                        <th>Waktu Publikasi</th>
-                        <th>Waktu Update</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Data dari JSON akan ditambahkan di sini -->
-                </tbody>
-            </table>
-
-            <!-- Section Baru untuk Data JSON -->
-            <section id="json-data-section">
-                <h2>Data dari JSON</h2>
-                <div id="json-data-content"></div>
-            </section>
-        </main>
-
+        <section id="data-scraping">
+            <h2>Data Scraping </h2>
+            <div id="data-container">
+                <table id="news-table">
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                            <th>Kategori</th>
+                            <th>Waktu Publish</th>
+                        </tr>
+                    </thead>
+                    <tbody id="news-table-body">
+                        <!-- Baris berita akan dimasukkan secara dinamis di sini -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <footer class="box">
             Muhammad Samudera
             <p><a href="https://mail.google.com">samuderabagja@gmail.com</a></p>
